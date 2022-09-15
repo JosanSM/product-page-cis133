@@ -1,0 +1,275 @@
+:root {
+    --green: #00a87e;
+    --yellow: #f4be19;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-upper {
+    height: 5vh;
+    padding: 0.5rem 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.search-bar {
+    justify-content: space-between;
+    align-items: center;
+    display: inline;
+    border: 1px solid var(--green);
+    border-radius: 15px;
+    width: 60%;
+    height: 80%;
+    margin: auto 0;
+}
+
+.search {
+    background-color: #00a87e;
+    width: 8%;
+    height: 100%;
+    float: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search img {
+    height: 70%;
+    width: auto;
+}
+
+.searchbar-text {
+    color: var(--green);
+    font-weight: bold;
+    margin-left: 1rem;
+    padding: auto 0;
+    display: inline;
+    line-height: 2rem;
+}
+
+.location-logo {
+    display: inline;
+    margin: auto 0;
+    color: var(--green);
+    font-weight: bolder;
+}
+
+.logo {
+    height: 80%;
+    width: auto;
+    margin: auto 0 auto 1rem;
+}
+
+.nav-upper ul {
+    width: 30%;
+    display: inline;
+    justify-content: space-between;
+}
+
+.nav-upper ul li {
+    margin: 0 0.6rem;
+}
+
+.nav-menu {
+    justify-content: space-between;
+}
+
+#nav-menu {
+    width: 100%;
+}
+
+.left-part {
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.right-part {
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.right-link {
+    font-weight: bolder;
+}
+
+.nav-menu ul {
+    margin: 0.8rem;
+    padding: 0;
+    border-bottom: 0.5px solid gray;
+    box-sizing: border-box;
+}
+
+#nav-menu {
+    justify-content: space-between;
+}
+
+.nav-menu-link,
+a {
+    display: inline;
+    text-decoration: none;
+    padding-bottom: 0.8rem;
+    color: black;
+}
+
+.nav-menu-link:hover {
+    border-bottom: 5px solid var(--green);
+    box-sizing:border-box;
+}
+
+.container {
+    width: 95%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.path {
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.path span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.photo-container {
+    width: 67%;
+    height: 100%;
+    /* margin: 0 auto; */
+    border: 1px solid #e2e2e2;
+    background-color: #f8f8f8;
+    justify-content: center;
+}
+
+.product-photo {
+    height: 100%;
+    width: auto;
+}
+
+.info-container {
+    width: 30%;
+    height: 100%;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.info-container h2,
+.info-container p {
+    width: 100%;
+    line-height: 1rem;
+}
+
+.stars span{
+    color: var(--yellow);
+}
+
+.button {
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-now-button {
+    width: 95%;
+    border-radius: 15px;
+    background-color: var(--yellow);
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.buttons-container {
+    width: 95%;
+    justify-content: space-between;
+}
+
+.half-button {
+    width: 48%;
+    border-radius: 15px;
+    border: 1px solid var(--green);
+}
+
+.ask {
+    color: var(--green);
+}
+
+.offer {
+    background-color: var(--green);
+    color: white;
+}
+
+.buttons-container-last {
+    justify-content: space-around;
+    width: 95%;
+    margin: 1rem 0;
+}
+
+.small-button {
+    width: 30%;
+    color: var(--green);
+}
+
+.save {
+    width: 30%;
+}
+
+.heart {
+    font-size: 1.5rem;
+}
+
+.share {
+
+}
+
+.division {
+    width: 95%;
+    height: 1px;
+    background-color: gray;
+}
+
+.product-name {
+    font-size: 1.5rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    margin: 0.2rem;
+}
+
+.product-info {
+    margin: 0.1rem;
+}
+
+.profile-info {
+    align-items: center;
+    height: 15%;
+
+}
+
+.profile-info img {
+    height: 80%;
+    width: auto;
+}
+
+.user-info p {
+    margin: 0.6rem
+}
